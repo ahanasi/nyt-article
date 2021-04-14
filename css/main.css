@@ -317,3 +317,28 @@ article {
   border: none;
   background-color: transparent;
 }
+
+.top-img {
+  position: absolute;
+  max-width: 1200px;
+  left: 0;
+  right: 0;
+  margin: 25px auto 43px;
+}
+
+figcaption {
+  color: #666;
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  padding-top: 710px;
+  margin-left: -296px;
+  margin-bottom: 43px;
+  max-width: 900px;
+  font-size: 15px;
+  line-height: 1.25rem;
+}
+
+figcaption > span {
+  color: #888;
+  font-size: 13px;
+  vertical-align: baseline;
+}
